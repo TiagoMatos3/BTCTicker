@@ -80,7 +80,7 @@ int main()
     {
         fprintf(stderr, "parseTimestamp returned NULL.");
         cJSON_Delete(timestamp);
-        cJSON_Delete(timestamp);
+        cJSON_Delete(lastPrice);
         free(data);
         return 1;
     }
